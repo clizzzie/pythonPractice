@@ -1,4 +1,4 @@
-convertGGFtext2plottingtext:
+## convertGGFtext2plottingtext:
 jupyter notebook used to convert GGF100k coefficients to a text that is readable by python
 or matlab
 
