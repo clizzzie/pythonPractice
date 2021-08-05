@@ -1,9 +1,13 @@
-## convertGGFtext2plottingtext:
-jupyter notebook used to convert GGF100k coefficients to a text that is readable by python
-or matlab
 
-Eventually want to create a function that takes in the line length of a block of year data
-as an argument and outputs a plottable text file in matrix format
+
+Eventually want to create a function that takes in the line length of a block of year data as an argument and outputs a plottable text file in matrix format
+
+
+
+
+
+## convertGGFtext2plottingtext notebook:
+This is the original notebook used to create the function that converted GGF100k block format to a plotting format text, which is readable by python. <br>
 
 ## Text file format:
 Block format starting with the year and following coefficient in correct order
