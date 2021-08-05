@@ -4,6 +4,7 @@ import sys
 def main():
     """ block_to_2Darray creates a new text file that reorganizes a year block format to a 2D array with
     each row containing a year of Gauss coefficients.
+    Reference block_to_2Darray.ipynb for more details on how code works.
     Input   : blocklinelen is the number of lines in a year block in the text document
             : document is a string with the document name
             : saveDocument is a string the 2D array will save as
