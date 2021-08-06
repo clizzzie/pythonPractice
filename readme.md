@@ -1,5 +1,6 @@
 
-# block_to_2Darray.py:
+# Block to 2D array
+## block_to_2Darray.py:
 Converts a block style format of a text document to a 2D array with rows containing all Gauss coefficients per block. See text file format for a visual. <br>
 Arguments:
 * [1] textDoc.txt: original text document
@@ -34,3 +35,15 @@ year+1  $ g_{1}^{0} ... g_{4}^{3} h_{4}^{3} g_{4}^{4} h_{4}^{4} ...  h_{10}^{10}
 ## block_to_2Darray.ipynb:
 This is the reference notebook for block_to_2Darray.py on how the code works.
 
+# Spatial Power Variability
+## SpatialPowerVariability.ipynb:
+
+## PlotGC.ipynb:
+
+# Text Documents
+
+## ggf100k_coeffs
+The original ggf100k Gauss coefficients of degree and order 10
+
+## ggf100k_coeffs_2Darray.txt
+This is the converted 2D array from the original ggf100k model text document
