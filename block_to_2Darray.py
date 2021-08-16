@@ -24,10 +24,7 @@ def main():
     year                      = get_years(lines, blocklinelen)
     l_degree, totalGC         = get_degree(eachLine)
     coeff2D                   = create_2Darray(lines, blocklinelen, totalGC, eachLine)
-
-    print('g10 std:', np.std(coeff2D[:,1]), 'mean:', np.mean(coeff2D[:,1]),'min:', np.min(coeff2D[:,1]),'max:', np.max(coeff2D[:,1]))
-    print('g11 std:', np.std(coeff2D[:,2]), 'mean:', np.mean(coeff2D[:,2]),'min:', np.min(coeff2D[:,2]),'max:', np.max(coeff2D[:,2]))
-    print('h11 std:', np.std(coeff2D[:,3]), 'mean:', np.mean(coeff2D[:,3]),'min:', np.min(coeff2D[:,3]),'max:', np.max(coeff2D[:,3]))
+    get_dipole_statistics(coeff2D)
 
     np.savetxt(saveDocument, coeff2D)
 
@@ -196,6 +193,10 @@ def create_2Darray(lines, blocklinelen, totalGC, eachLine):
     
     return coeff
 
+def get_dipole_statistics(coeff2D):
+    print('g10 std:', np.std(coeff2D[:,1]), 'mean:', np.mean(coeff2D[:,1]),'min:', np.min(coeff2D[:,1]),'max:', np.max(coeff2D[:,1]))
+    print('g11 std:', np.std(coeff2D[:,2]), 'mean:', np.mean(coeff2D[:,2]),'min:', np.min(coeff2D[:,2]),'max:', np.max(coeff2D[:,2]))
+    print('h11 std:', np.std(coeff2D[:,3]), 'mean:', np.mean(coeff2D[:,3]),'min:', np.min(coeff2D[:,3]),'max:', np.max(coeff2D[:,3]))
 
 if __name__ == '__main__':
     main()
