@@ -62,9 +62,11 @@ dictionary_str2array.py is a module used to convert a dictionary element strings
 {'key 1': '1 2 3 4'} to {'key 1': array([1 2 3 4])}
 
 # Spatial Power Variability
-SpatialPowerVariability.ipynb:
+spatial_power_variability.py is a module used to calculate the spatial power variability <br>
+SpatialPowerVariability.ipynb: is the reference notebook for details on the code <br>
+$ R_{l}\left( t\right) =\left( l+1\right) \sum ^{l}_{m=0}\left\{ \left[ g_{l}^{m}\left( t\right) \right] ^{2}+\left[ h_{l}^{m}\left( t\right) \right] ^{2}\right\} $
 
-## PlotGC.ipynb:
+# PlotGC.ipynb:
 
 # Text Documents
 
