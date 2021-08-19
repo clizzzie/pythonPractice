@@ -1,5 +1,5 @@
 
-# Block to 2D array
+# Block to 2D array (Terminal)
 block_to_2Darray.py:
 Converts a block style format of a text document to a 2D array with rows containing all Gauss coefficients per block. See text file format for a visual. <br>
 Arguments:
@@ -35,7 +35,7 @@ year+1  $ g_{1}^{0} ... g_{4}^{3} h_{4}^{3} g_{4}^{4} h_{4}^{4} ...  h_{10}^{10}
 ## block_to_2Darray.ipynb:
 This is the reference notebook for block_to_2Darray.py on how the code works.
 
-# 2D Array to Dictionary
+# 2D Array to Dictionary (Terminal)
 2D_to_dictionary.py: Converts a np.ndarray to a dictionary. <br>
 Arguments:
 * [1] GCtxt.txt : original text document in 2D array format
@@ -56,12 +56,12 @@ year+1  $ g_{1}^{0} ... g_{4}^{3} h_{4}^{3} g_{4}^{4} h_{4}^{4} ...  h_{10}^{10}
 ## 2D_to_dictionary.ipynb:
 This is the reference notebook for a 2D_to_dictionary.py. Not sure if the kernel supports import json or sys.
 
-# Dictionary Element String to Array
+# Dictionary Element String to Array (Module)
 dictionary_str2array.py is a module used to convert a dictionary element strings to a np.ndarray
 
 {'key 1': '1 2 3 4'} to {'key 1': array([1 2 3 4])}
 
-# Spatial Power Variability
+# Spatial Power Variability (Module)
 spatial_power_variability.py is a module used to calculate the spatial power variability <br>
 SpatialPowerVariability.ipynb: is the reference notebook for details on the code <br>
 $ R_{l}\left( t\right) =\left( l+1\right) \sum ^{l}_{m=0}\left\{ \left[ g_{l}^{m}\left( t\right) \right] ^{2}+\left[ h_{l}^{m}\left( t\right) \right] ^{2}\right\} $
