@@ -2,3 +2,6 @@ ggf100k_coeffs
 ggf100k_matrixFormatTest.txt
 *.psd
 *_ggf100k.txt
+PSD_inputfile
+dictTest.txt
+testRunAgain.json
