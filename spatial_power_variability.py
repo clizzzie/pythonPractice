@@ -89,7 +89,7 @@ def calculate_R(diction_array, list_lforR, needed_l):
     return R
 
 def print_R_stats(R, needed_l):
-    print('R_',needed_l,'(t)','min:', np.min(R), 'mean:',np.min(R), 'max:', np.max(R), 'std:',np.std(R))
+    print('R_',needed_l,'(t)','min:', np.min(R), 'mean:',np.mean(R), 'max:', np.max(R), 'std:',np.std(R))
 
 if __name__ == '__main__':
     main()
